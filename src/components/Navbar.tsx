@@ -45,8 +45,8 @@ export const Navbar = () => {
                         <div className='d-flex justify-content-start align-items-center p-3' style={{ borderRight: '1px solid #222' }}>
                             <Image
                                 className='navbar-image'
-                                src={logoHome}
-                                alt='Menu Logo'
+                                src={ logoHome }
+                                alt='Home Logo'
                             />
                         </div>
                     </div>
