@@ -1,0 +1,147 @@
+:root {
+  --primary-color: #eaeaea;
+  --secondary-color: #EFF5FC;
+  --gray-color: #a5a5a5;
+  --yellow-color: #fec702;
+  --white-color:   #ffffff;
+  --black-color: #222;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.gray-color {
+  color: var(--gray-color);
+}
+
+.yellow-color {
+  color: var(--yellow-color);
+}
+
+
+.navbar-style{
+  height: 60px;
+  background-color: var(--white-color);
+  border-bottom: 2px solid var(--gray-color);
+  padding: 0px;
+}
+
+.bg-yellow {
+  background-color: var(--yellow-color);
+}
+
+.navbar-menu-image{
+  height: 16px;
+}
+
+.navbar-image{
+  height: 40px;
+}
+
+.rounded-circle{
+  height: 30px;
+}
+
+.footer-style{
+  height: 30px;
+  background-color: var(--primary-color);
+}
+
+.separator {
+  border-left: 2px solid var(--yellow-color);
+  height: 20px;
+  margin: 0 10px;
+}
+
+.footer-span{
+  font-size: 12px;
+}
+
+.main-content{
+  width: 100%;
+  height: calc(100vh - 90px);
+}
+
+.tabulator{
+  height: 60px;
+}
+
+.tabulator-element{
+  padding: 10px;
+  border-bottom: 4px solid var(--secondary-color);
+}
+
+.tabulator-text{
+  font-size: 16px;
+  margin: 0;
+}
+
+.element-active .tabulator-element{
+  border-bottom: 4px solid var(--yellow-color);
+}
+
+.tabulator ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0;
+  margin-bottom: 0px;
+}
+
+.tabulator li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.tabulator li a {
+  color: var(--gray-color);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.tabulator-image{
+  width: 25px;
+}
+
+.button-form{
+  background-color: var(--yellow-color);
+  color: #222;
+  border-radius: 20px;
+  padding: 12px;
+  border: none;
+  font-size: 14px;
+  width: 160px;
+}
+
+.custom-input{
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #222;
+  background-color: transparent;
+}
+
+.card-no-border{
+  border: none;
+}
+
+.blue-card{
+  background-color: #eef5fd;
+}
+
+.icon-size{
+  width: 15px;
+}
+
+span.error-message {
+  color: red;
+}
+
+.has-error {
+  border: 1px solid red;
+}
